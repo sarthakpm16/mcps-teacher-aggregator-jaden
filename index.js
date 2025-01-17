@@ -116,7 +116,7 @@ for (let link of links) {
     elementList.forEach((element) => {
         const textContent = element.textContent;
         const type = element.tagName;
-        if (type == "H3" && textContent.includes("Technology")) {
+        if (type == "H3" && textContent.includes("Science")) {
             init = true;
         } else if (type == "H3") {
             init = false;
